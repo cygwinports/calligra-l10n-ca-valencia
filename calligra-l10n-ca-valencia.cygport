@@ -1,8 +1,14 @@
 inherit kde4
 
 NAME="calligra-l10n-ca-valencia"
-VERSION=2.4.3
+VERSION=2.7.5
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="Calligra Suite Valencian translation files"
 DESCRIPTION="Calligra Suite Valencian translation files"
+SRC_URI="mirror://kde/stable/calligra-${VERSION}/calligra-l10n/calligra-l10n-ca@valencia-${VERSION}.tar.xz"
+SRC_DIR="calligra-l10n-ca@valencia-${VERSION}"
+
+ARCH=noarch
+
+ARCH=noarch
